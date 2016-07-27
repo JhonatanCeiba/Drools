@@ -1,0 +1,45 @@
+package com.sample
+ 
+import com.sample.DroolsTest.Message;
+ 
+rule "Hello World"
+    when
+        m : Message( status == Message.HELLO, myMessage : message )
+    then
+    	// Imprime el mensaje establecido (setMessage) 
+    	//que viene como parámetro 
+        System.out.println( myMessage );
+        
+        //Este estado se mostrara en TRYING
+        m.setMessage( "Hello world" );
+        m.setStatus( Message.TRYING );
+        update(m);
+end
+
+rule "Trying Man"
+    when
+        m : Message( status == Message.TRYING, myMessage : message )
+    then
+        System.out.println( myMessage );
+        m.setMessage("Tyring Man!!");
+        m.setStatus(Message.GOODBYE);
+        update(m);
+end
+
+rule "GoodBye"
+    when
+        m :Message( status == Message.GOODBYE, myMessage : message )
+    then
+        System.out.println( myMessage );
+        m.setMessage("Good Bye");
+        m.setStatus(Message.FINISH);
+        update(m);
+end
+
+rule "Finish"
+    when
+        Message( status == Message.FINISH, myMessage : message )
+    then
+        System.out.println( myMessage );
+       
+end

@@ -1,0 +1,94 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Hello World [1]</activationId>
+  <rule>Hello World</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Iniciando...(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>1</factId>
+  <objectToString>com.sample.DroolsTest$Message@59e505b2</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Hello World [1]</activationId>
+  <rule>Hello World</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Iniciando...(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Trying Man [1]</activationId>
+  <rule>Trying Man</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Hello world(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>1</factId>
+  <objectToString>com.sample.DroolsTest$Message@59e505b2</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Hello World [1]</activationId>
+  <rule>Hello World</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Hello world(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Trying Man [1]</activationId>
+  <rule>Trying Man</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Hello world(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>GoodBye [1]</activationId>
+  <rule>GoodBye</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Tyring Man!!(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>1</factId>
+  <objectToString>com.sample.DroolsTest$Message@59e505b2</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Trying Man [1]</activationId>
+  <rule>Trying Man</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Tyring Man!!(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>GoodBye [1]</activationId>
+  <rule>GoodBye</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Tyring Man!!(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Finish [1]</activationId>
+  <rule>Finish</rule>
+  <declarations>myMessage=Good Bye(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>1</factId>
+  <objectToString>com.sample.DroolsTest$Message@59e505b2</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>GoodBye [1]</activationId>
+  <rule>GoodBye</rule>
+  <declarations>m=com.sample.DroolsTest$Message@59e505b2(1); myMessage=Good Bye(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Finish [1]</activationId>
+  <rule>Finish</rule>
+  <declarations>myMessage=Good Bye(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Finish [1]</activationId>
+  <rule>Finish</rule>
+  <declarations>myMessage=Good Bye(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>
